@@ -1,0 +1,20 @@
+#video{
+	background: red;
+	width: 420px;
+	height: 236px;
+	margin: 0 auto;
+	box-shadow: 0 0 0 5px white,
+				0 0 0 10px,
+				0 25px 30px;
+}
+
+@media (min-width: 750px){
+	#video{
+	background: black;
+	width: 79%;
+	height: 80%;
+	box-shadow: 0 0 0 5px white,
+				0 0 0 10px,
+				0 35px 60px;
+}
+}
